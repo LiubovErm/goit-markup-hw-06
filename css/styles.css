@@ -519,6 +519,55 @@ address {
 .social-icon {
     fill:currentColor;
 }
+.subscription-title {
+    color: var(--mainwhite-color);
+    line-height: 1.14;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    margin-bottom: 20px;
+    padding-top: 12px;
+}
+.input-footer {
+    width: 358px;
+    height: 50px;
+    padding: 15px 16px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+    color: rgba(255, 255, 255, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    border-radius: 4px;
+    background-color: transparent;
+    box-shadow: 0px 4px rgba(0, 0, 0, 0.15);
+}
+.button-footer {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 29px;
+    margin-left: 12px;
+    border: none;
+    width: 200px;
+    height: 50px;
+    background-color: var(--accent-color);
+    color: var(--mainwhite-color);
+    border-radius: 4px;
+    box-shadow: 0px 4px rgba(0, 0, 0, 0.15);
+    font-size: 16px;
+    font-weight: 700;
+    list-style: 1.875;
+    letter-spacing: 0.06em;
+
+}
+.form-footer {
+    display: flex;
+    width: 570px;
+    height: 86px;
+}
+.subscription{
+    margin-left: 93px;
+}
 /* Portfolio */
 
 .button-portfolio {
